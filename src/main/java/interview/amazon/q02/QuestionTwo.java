@@ -31,7 +31,7 @@ public class QuestionTwo {
         } // Also you can add more control flow like remove special chars, white space etc..
         // You can make another method for that. (errorHandlingSolution(input))
 
-        permutation(input,input); // Set
+        myPermutation(input, input); // Set
 //        for(String str: mySet){
 //            System.out.println(str);
 //        }
@@ -54,17 +54,18 @@ public class QuestionTwo {
         return result;
     }
 
-    public static void permutation(String str, String actual){
-        permutation("", str, actual);
+    public static void myPermutation(String str, String actual){
+        myPermutation("", str, actual);
     }
 
-    private static void permutation(String prefix, String str, String actual){
+    private static void myPermutation(String prefix, String str, String actual){
         int n = str.length();
-        mySet.add(prefix);
+        if(!prefix.isEmpty())
+            mySet.add(prefix);
         if(n > 0){
             for(int i = 0; i < n; i++){
                 if(actual.contains(prefix + str.charAt(i))){
-                    permutation(prefix + str.charAt(i), str.substring(i + 1, n), actual);
+                    myPermutation(prefix + str.charAt(i), str.substring(i + 1, n), actual);
                 }
 
             }
@@ -101,10 +102,9 @@ public class QuestionTwo {
     }
 
 //    public static void main (String[]args){
-//
+//        System.out.println(solution("abc")); // 0
 //        System.out.println(solution("aabb")); // 1
 //        System.out.println(solution("bbacccabab")); // 2
 //        System.out.println(solution("aaaa")); // 0
-//
 //    }
 }
