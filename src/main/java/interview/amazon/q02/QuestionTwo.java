@@ -36,7 +36,7 @@ public class QuestionTwo {
 //            System.out.println(str);
 //        }
 
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> map;
         for(String str: mySet){
             if(!"".equalsIgnoreCase(str))
             {

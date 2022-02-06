@@ -21,4 +21,5 @@ public class QuestionTwoTest {
         NullPointerException thrown = assertThrows(NullPointerException.class, () -> solution(null));
         assertTrue(thrown.getMessage().contains("Input can not be null"));
     }
+
 }
