@@ -52,8 +52,6 @@ public class BinaryTreeHeight {
                 return 1 + height(root.right);
             else
                 return 1 + Math.max(height(root.left), height(root.right));
-
-
         }
     }
 
@@ -72,8 +70,8 @@ public class BinaryTreeHeight {
         System.out.println(height);
     }
 
-    public static void main(String[] args) {
-        BinaryTreeHeight binaryTree = new BinaryTreeHeight();
-        binaryTree.runHackerrank();
-    }
+//    public static void main(String[] args) {
+//        BinaryTreeHeight binaryTree = new BinaryTreeHeight();
+//        binaryTree.runHackerrank();
+//    }
 }

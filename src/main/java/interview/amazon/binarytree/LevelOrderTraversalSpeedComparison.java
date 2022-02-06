@@ -28,18 +28,18 @@ public class LevelOrderTraversalSpeedComparison {
 
     }
 
-    public static void main(String[] args) {
-
-        long startTime = System.nanoTime();
-        //method1(100);
-        method2(100);
-        long endTime = System.nanoTime();
-        long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
-
-        System.out.println(duration);
-        // Method 1: 132600
-        // Method 2: 422600
-
-    }
+//    public static void main(String[] args) {
+//
+//        long startTime = System.nanoTime();
+//        //method1(100);
+//        method2(100);
+//        long endTime = System.nanoTime();
+//        long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.
+//
+//        System.out.println(duration);
+//        // Method 1: 132600
+//        // Method 2: 422600
+//
+//    }
 
 }

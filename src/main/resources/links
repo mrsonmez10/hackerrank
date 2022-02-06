@@ -3,7 +3,8 @@ Arrays: https://www.hackerrank.com/interview/interview-preparation-kit/arrays/ch
 
 #Interview
 ##Amazon
-Amazon.bfs.Solution:  https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+Amazon.BFSAlgorithm:  https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
 Amazon.binarytree.BinaryTreeHeight: https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
 Amazon.binarytree.LevelOrderTraversal & LevelOrderTraversalSpeedComparison: https://www.hackerrank.com/challenges/tree-level-order-traversal/problem
+Amazon.BalancedBrackets: https://www.hackerrank.com/challenges/balanced-brackets
 

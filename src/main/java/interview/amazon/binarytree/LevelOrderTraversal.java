@@ -85,8 +85,8 @@ public class LevelOrderTraversal {
         s.levelOrder(root);
     }
 
-    public static void main(String[] args) {
-        LevelOrderTraversal levelOrderTraversal = new LevelOrderTraversal();
-        levelOrderTraversal.runHackerRank();
-    }
+//    public static void main(String[] args) {
+//        LevelOrderTraversal levelOrderTraversal = new LevelOrderTraversal();
+//        levelOrderTraversal.runHackerRank();
+//    }
 }

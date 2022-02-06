@@ -8,8 +8,6 @@ J
 src/main/java/array/Beauty,2\b\2b1db0f64b5701109c44e0d8f7df752761f9df00
 N
 src/main/java/interview/Beauty,7\b\7b2635ea0b8058aee3d28ac6b4afb9f76a6be29d
-U
-%src/main/java/interview/amazon/Beauty,0\d\0de560a792f06e7a8f50c6227ca88ca280a59932
 N
 src/test/java/interview/Beauty,e\4\e40e7e85019e08549d8dbdc248a24700ac5809ce
 h
@@ -34,3 +32,9 @@ Z
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 e
 5src/main/java/interview/amazon/dijkstra/Dijkstra.java,3\b\3babdf064e84577388848402b9a3ec2e14960228
+i
+9src/test/java/interview/amazon/dijkstra/DijkstraTest.java,6\a\6a1e25f14701ab22eb895317e86276c3fd3a40f0
+c
+3src/main/java/interview/amazon/q01/QuestionOne.java,5\3\531398b531f97b5f9abf289a8361a31c06f0557e
+g
+7src/test/java/interview/amazon/q02/QuestionTwoTest.java,c\d\cdc646245c335ab8a48bb0e5f5f1b451de9a612a

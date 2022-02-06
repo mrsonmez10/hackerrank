@@ -1,4 +1,4 @@
-package interview.amazon.bfs;
+package interview.amazon;
 
 import java.util.*;
 
@@ -31,7 +31,7 @@ import java.util.*;
      * 6 12 18 6 -1
  *
  */
-public class Solution {
+public class BFSAlgorithm {
     public static class Graph {
         private int V;
         private LinkedList<Integer> [] G;
