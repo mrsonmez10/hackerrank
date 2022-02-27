@@ -97,8 +97,9 @@ public class RunningMedian {
             List<Double> medians = new ArrayList<>();
             for (int i = 0; i < a.size(); i++) {
                 addNumber(a.get(i));
-                System.out.println(getMedian());
-                medians.add(getMedian());
+                double median = getMedian();
+                System.out.println(median);
+                medians.add(median);
             }
             return medians;
         }
